@@ -38,6 +38,7 @@ on-run-start:
 
 models:
   airbnb:
+    +static_analysis: strict
     +grants:
       select: ["transform", "reporter"]
     +post-hook: 
